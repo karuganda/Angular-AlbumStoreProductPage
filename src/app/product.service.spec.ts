@@ -5,7 +5,7 @@ import { ProductService } from './product.service';
 import { Http } from '@angular/http';
 import { Response } from '@angular/http';
 
-describe('ProductService', (private _http: Http) => {
+describe('ProductService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [ProductService]
